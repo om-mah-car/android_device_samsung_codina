@@ -1,0 +1,14 @@
+[
+      {
+        "remote": "sf",
+        "repository": "smtoolchainsarmandroideabi48/code",
+        "target_path": "prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8",
+        "revision": "sm-kk-mr1"
+    },
+    {
+        "remote": "sf",
+        "repository": "sabermodsmtoolchainsarmeabi47/code",
+        "target_path": "prebuilts/gcc/linux-x86/arm/arm-eabi-4.8",
+        "revision": "sm-kk-mr1"
+    }
+]
