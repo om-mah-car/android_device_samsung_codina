@@ -1,1 +1,2 @@
 add_lunch_combo carbon_codina-userdebug
+add_lunch_combo carbon_codina-user
