@@ -8,8 +8,8 @@ PRODUCT_RELEASE_NAME := GT-I8160
 TARGET_SCREEN_HEIGHT := 800
 TARGET_SCREEN_WIDTH := 480
 
-PRODUCT_COPY_FILES +=  \
-    vendor/slim/prebuilt/hdpi/bootanimation.zip:system/media/bootanimation.zip
+# PRODUCT_COPY_FILES +=  \
+#    vendor/slim/prebuilt/hdpi/bootanimation.zip:system/media/bootanimation.zip
 
 # Inherit some common Slim stuff.
 $(call inherit-product, vendor/slim/config/common_full_phone.mk)
