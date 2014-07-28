@@ -55,5 +55,5 @@ How to build:
   brunch codina
 
 
-- Thanks : CyanogenMod, dh-harald, Sakura Droid, jereksel, diego-ch, frapeti, OliverG96, ekim.tecul, percy-g2, munjeni
+- Thanks : CyanogenMod, dh-harald, Sakura Droid, jereksel, TeamCanjica, ekim.tecul
 
