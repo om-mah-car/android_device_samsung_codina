@@ -9,6 +9,14 @@ LOCAL_PATH := device/samsung/codina
 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
+# This device is hdpi.
+PRODUCT_AAPT_CONFIG := normal hdpi
+PRODUCT_AAPT_PREF_CONFIG := hdpi
+PRODUCT_LOCALES += hdpi
+
+PRODUCT_PROPERTY_OVERRIDES += \
+     ro.sf.lcd_density=240
+
 # Init files
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/fstab.samsungcodina:root/fstab.samsungcodina \
@@ -27,3 +35,15 @@ PRODUCT_COPY_FILES += \
 # GPS
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/gps.conf:system/etc/gps.conf
+
+
+
+# Xperia Keyboard
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/xperia/app/xperiaIME.apk:system/app/xperiaIME.apk \
+    $(LOCAL_PATH)/xperia/lib/libXT9Engine.so:system/lib/libXT9Engine.so \
+    $(LOCAL_PATH)/xperia/lib/libXT9Engine.so:system/lib/libXT9Engine.so \
+    $(LOCAL_PATH)/xperia/usr/xt9/SEMC_810_r1-4_PLlsUN_xt9_2.ldb:system/usr/xt9/SEMC_810_r1-4_PLlsUN_xt9_2.ldb \
+    $(LOCAL_PATH)/xperia/usr/xt9/SEMC_810_r1-28_ENubUN_xt9_3.ldb:system/usr/xt9/SEMC_810_r1-28_ENubUN_xt9_3.ldb
+
+
